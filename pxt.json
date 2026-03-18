@@ -1,5 +1,5 @@
 {
-    "name": "cmk-test",
+    "name": "cmk-projectile-icon",
     "dependencies": {
         "core": "*",
         "builder": "*"
