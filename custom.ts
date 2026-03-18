@@ -42,22 +42,22 @@ declare const enum ProjectileMobLightningBolt {
 //% weight=100 color=#0fbc11 icon=""
 namespace mobs {
     //% block="や $projectile"
-    //% blockId=mobs.projectile
+    //% blockId=mobs.projectileArrow
     export function projectileMobArrow(projectile: ProjectileMobArrow): number {
         return projectile as number;
     }
     //% block="ゆきだま $projectile"
-    //% blockId=mobs.projectile
+    //% blockId=mobs.projectileSnowball
     export function projectileMobSnowball(projectile: ProjectileMobSnowball): number {
         return projectile as number;
     }
     //% block="ＴＮＴ $projectile"
-    //% blockId=mobs.projectile
+    //% blockId=mobs.projectileTnt
     export function projectileMobTnt(projectile: ProjectileMobTnt): number {
         return projectile as number;
     }
     //% block="かみなり $projectile"
-    //% blockId=mobs.projectile
+    //% blockId=mobs.projectileLightningBolt
     export function projectileMobLightningBolt(projectile: ProjectileMobLightningBolt): number {
         return projectile as number;
     }
